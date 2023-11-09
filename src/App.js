@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { createBrowserRouter } from "react-router-dom";
+import Task1 from './tasks/task1/Task1'
+
+const App = createBrowserRouter([
+  {
+    path: '/',
+    element: <Task1 />
+  }
+])
 
 export default App;
