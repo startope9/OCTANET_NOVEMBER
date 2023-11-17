@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+}
+
+table thead tr {
+    background-color: #383636;
+    color: white;
+
+}
+
+table {
+    text-align: center;
+    width: 80%;
+}
+
+table thead th {
+    padding: 10px 20px 10px 20px;
+}
+
+.disp-todo.not-done thead th:nth-child(3) {
+    width: 50%;
+    word-break: break-all;
+}
+
+table tbody td {
+    padding: 5px 0 5px 0;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: aqua;
+
+}
+
+.disp-todo.done thead th:nth-child(2) {
+    word-break: break-all;
+    width: 60%;
+}
+
+.done-submit {
+    color: #383636 !important;
+}
